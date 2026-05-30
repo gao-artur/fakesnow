@@ -71,6 +71,7 @@ reportMatchNotExhaustive = true
 reportUnnecessaryTypeIgnoreComment = true
 
 [tool.pytest.ini_options]
+testpaths = ["tests"]
 # error on unhandled exceptions in background threads
 # useful for catching errors in server or snowflake connector threads
 filterwarnings = [
